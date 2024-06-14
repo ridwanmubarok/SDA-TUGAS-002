@@ -13,14 +13,14 @@ void fungsiPengurutan(std::string arr[], int n) {
 }
 
 int main() {
-    std::string cities[] = {"Jakarta", "Malang", "Surabaya", "Bandung", "Garut", "Depok", "Tangerang"};
-    int n = sizeof(cities) / sizeof(cities[0]);
+    std::string listKota[] = {"Jakarta", "Malang", "Surabaya", "Bandung", "Garut", "Depok", "Tangerang"};
+    int n = sizeof(listKota) / sizeof(listKota[0]);
 
-    fungsiPengurutan(cities, n);
+    fungsiPengurutan(listKota, n);
 
     std::cout << "Kota-kota yang sudah diurutkan: \n";
     for (int i = 0; i < n; ++i) {
-        std::cout << cities[i] << std::endl;
+        std::cout << listKota[i] << std::endl;
     }
 
     return 0;
